@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyaikit
+Version: 1.0.0
+Summary: A short description of your package
+Home-page: https://github.com/somenath24/pyaikit
+Author: Somenath Sit
+Author-email: somenath.bhu.2010@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A longer description of your package

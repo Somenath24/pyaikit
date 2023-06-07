@@ -1,8 +1,10 @@
-import os
+#pip install pyaikit
 
-from authentication import Authenticator
-from sentiment_analysis.sentiment_analyzer import sentiment_analyzer
-from text_summerization.text_summerizer import text_summerizer
+from pyaikit import authentication, sentiment_analysis,text_summerization
+from pyaikit.sentiment_analysis.sentiment_analyzer import sentiment_analyzer
+from pyaikit.text_summerization.text_summerizer import text_summerizer
+from pyaikit.authentication import Authenticator
+
 auth = Authenticator()
 
 # Set up authentication with the API key

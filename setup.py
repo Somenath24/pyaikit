@@ -9,7 +9,7 @@ setup(
     long_description='A longer description of your package',
     long_description_content_type='text/markdown',
     url='https://github.com/somenath24/pyaikit',
-    packages=['pyaikit'],
+    packages=['sentiment_analysis','text_summerization'],
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Intended Audience :: Developers',

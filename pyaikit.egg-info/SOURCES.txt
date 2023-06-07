@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyaikit.egg-info/PKG-INFO
+pyaikit.egg-info/SOURCES.txt
+pyaikit.egg-info/dependency_links.txt
+pyaikit.egg-info/requires.txt
+pyaikit.egg-info/top_level.txt
+sentiment_analysis/sentiment_analyzer.py
+text_summerization/text_summerizer.py
