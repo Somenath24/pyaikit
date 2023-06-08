@@ -34,9 +34,11 @@ text_summarization:
 
 <h2>Installation</h2>
 
+
+
 <p>You can install PyAIKit using pip:</p>
 
-<pre><code>pip install pyaikit</code></pre>
+<pre><code>pip install pyaikit@git+https://github.com/Somenath24/pyaikit</code></pre>
 
 <h2>Getting Started</h2>
 
