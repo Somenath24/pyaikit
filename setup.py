@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='pyaikit',
-    version='1.0.2',
+    version='1.0.4',
     author='Somenath Sit',
     author_email='somenath.bhu.2010@gmail.com',
     description='PyAIKit is a user-friendly Python package that simplifies the integration and usage of OpenAIs powerful ChatGPT API for natural language processing tasks',
@@ -16,11 +16,10 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.9',
     ],
-    project_urls=[
-        'Documentation :: https://example.com/documentation/',
-        'GitHub ::  https://github.com/somenath24/pyaikit',
-        'Changelog :: https://github.com/foobar/foobar/blob/master/CHANGELOG.md',
-    ],
+    project_urls={
+        'GitHub' :  'https://github.com/somenath24/pyaikit',
+        'Changelog' : 'https://github.com/Somenath24/pyaikit/blob/main/CHANGELOG.md'
+    },
     python_requires='>=3.6',
     install_requires=[
         'openai',
@@ -28,5 +27,5 @@ setup(
         'requests',
         'PyPDF2',
         'PySimpleGUI'
-    ]
+    ],
 )
