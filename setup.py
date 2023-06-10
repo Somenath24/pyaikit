@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     name='pyaikit',
-    version='1.0.0',
+    version='1.0.2',
     author='Somenath Sit',
     author_email='somenath.bhu.2010@gmail.com',
-   description='PyAIKit is a user-friendly Python package that simplifies the integration and usage of OpenAIs powerful ChatGPT API for natural language processing tasks',
+    description='PyAIKit is a user-friendly Python package that simplifies the integration and usage of OpenAIs powerful ChatGPT API for natural language processing tasks',
     long_description='''
         PyAIKit is a Python package designed to enhance the usability and accessibility of AI models, currently OpenAI's ChatGPT API for natural language processing (NLP) tasks. With PyAIKit, developers can seamlessly integrate ChatGPT's advanced text generation capabilities into their applications, simplifying the process of generating high-quality text based on given prompts or conversations.
         Key Features:
@@ -29,7 +29,7 @@ setup(
     ''',
     long_description_content_type='text/markdown',
     url='https://github.com/somenath24/pyaikit',
-    packages=['pyaikit','sentiment_analysis','text_summerization','translator','text_generation'],
+    packages=['pyaikit','pyaikit/sentiment_analysis','pyaikit/text_summerization','pyaikit/translation','pyaikit/text_generation'],
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Intended Audience :: Developers',
