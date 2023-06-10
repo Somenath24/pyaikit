@@ -17,9 +17,9 @@ setup(
         'Programming Language :: Python :: 3.9',
     ],
     project_urls=[
-        'Documentation': 'https://example.com/documentation/',
-        'GitHub': 'https://github.com/foobar/foobar/',
-        'Changelog': 'https://github.com/foobar/foobar/blob/master/CHANGELOG.md',
+        'Documentation :: https://example.com/documentation/',
+        'GitHub ::  https://github.com/somenath24/pyaikit',
+        'Changelog :: https://github.com/foobar/foobar/blob/master/CHANGELOG.md',
     ],
     python_requires='>=3.6',
     install_requires=[
