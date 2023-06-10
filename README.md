@@ -10,7 +10,7 @@ Sub-packages
 sentiment_analysis:
     Provides functionality for performing sentiment analysis on text data.
 
-    Sub-packages:
+    Feature:
     - generate_basic_sentiment: Provides basic sentiment analysis functionality, allowing the classification of text into positive, negative, or neutral sentiment.
     - generate_advanced_sentiment: Provides advanced sentiment analysis functionality, allowing the classification of text into specific emotions such as happy, sad, anger, irritated, or surprise.
     - generate_sentiment_score: Provides functionality to generate sentiment scores between -1 and +1 for text data.
@@ -50,7 +50,10 @@ translation:
 
 <p>You can install PyAIKit using pip:</p>
 
-<pre><code>pip install pyaikit@git+https://github.com/Somenath24/pyaikit</code></pre>
+<pre><code>pip install pyaikit
+or
+pip install pyaikit@git+https://github.com/Somenath24/pyaikit
+</code></pre>
 
 <h2>Getting Started</h2>
 
@@ -73,13 +76,31 @@ print(response)
 </code></pre>
 For more code help please check the <a href="https://github.com/Somenath24/pyaikit/blob/main/example.py">example</a>
 
+<h3>Future Extension Plans for PyAIKit: Enhancing the Power of NLP</h3>
+<p>
+        PyAIKit is an evolving project with a roadmap of more future extensions and enhancements.
+        Here are some of the plans that are being considered to further empower the package:
+</p>
+<p>
+       <b> Model Customization:</b>
+        One of the key areas of focus for PyAIKit future development is enabling model customization. This means allowing users to fine-tune the underlying ChatGPT model according to their specific domain or application requirements. Customization options would enable users to train the model on their own data, resulting in more tailored and accurate text generation.
+</p>
+<p>
+        <b> Advanced Text Analysis:</b>
+        It aims to provide more advanced text analysis functionalities in the future. This includes features such as named entity recognition, part-of-speech tagging, and sentiment analysis. These enhancements would allow users to extract valuable insights from text data, enabling more sophisticated NLP applications and empowering data-driven decision-making.
+</p>
+<p>
+        <b>Integration with Other AI Models:</b>
+        This expansion would enable users to combine the power of ChatGPT with other state-of-the-art models, such as image recognition or speech processing models. This integration would enhance the package's versatility and enable the development of more comprehensive AI solutions.</p>
 <h2>License</h2>
 
-<p>PyAIKit is distributed under the <a href="https://github.com/somenath24/pyaikit/blob/main/LICENSE">MIT License</a>. See the <code>LICENSE</code> file for more information.</p>
-
+<p>PyAIKit is distributed under the <a href="https://github.com/somenath24/pyaikit/blob/main/LICENSE">MIT License</a>. See the <code>LICENSE</code> file for more information.
+</p>
+<p>
+This package is using OpenAI API, no connection with openai organization
 <hr>
 
-<p>We hope that PyAIKit simplifies your integration with OpenAI's API and empowers you to leverage the potential of artificial intelligence in your Python projects. If you have any questions or need support, please don't hesitate to reach out to us at somenath.bhu.2010@gmail.com.</p>
+<p>We hope that PyAIKit simplifies your integration with OpenAI's API and empowers you to leverage the potential of artificial intelligence in your Python projects. If you have any questions or need support, please don't hesitate to reach out to me at somenath.bhu.2010@gmail.com.</p>
 
 <p>Happy coding!</p>
 
