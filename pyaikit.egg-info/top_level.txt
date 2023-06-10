@@ -1,2 +1,5 @@
+pyaikit
 sentiment_analysis
+text_generation
 text_summerization
+translator

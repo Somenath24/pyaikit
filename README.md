@@ -21,6 +21,18 @@ text_summarization:
     Features:
     - summarize_text: Generates a summary of a given text with a specified number of words.
     - summarize_pdf: Generates a summary of a given PDF file, considering the specified number of pages.
+  
+text_generation:
+    Provides functionality for generating text/blogs about any topic.
+
+    Features:
+    - generate_text: Generates a blogs/summary for a given topic.
+
+translation:
+    Provides functionality for translating any text.
+
+    Features:
+    - translator: Translate any text to any language
 </p>
 
 <h2>Features</h2>
@@ -59,6 +71,7 @@ response = generator.summarize_pdf(openai1, no_of_words, file_path, start_page, 
 
 print(response)
 </code></pre>
+For more code help please check the <a href="https://github.com/Somenath24/pyaikit/blob/main/example.py">example</a>
 
 <h2>License</h2>
 
