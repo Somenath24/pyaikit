@@ -31,6 +31,6 @@ obj=text_generator()
 obj.generate_text(openai1, topic="title of your blog", no_of_words="20")
 
 
-#text generator
+#translator
 obj=translator()
 obj.translate_text(openai1, text="text", language="Bengali")
